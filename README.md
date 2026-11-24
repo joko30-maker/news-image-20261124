@@ -8,6 +8,10 @@ An entry for the make.fun bounty [news-image-20261124](https://make.fun/bounty/n
 
 `main.ts` copies `entry.png` to `/output/entry.png` — no network, byte-identical on every run. The poster is a one-page broadsheet, "The World Today", drawn as HTML + inline SVG and rendered to a 1024×1024 PNG (256,737 bytes).
 
+## Program
+
+`main.ts` is a small authored deliverer: it resolves its own directory from its module URL, creates the output directory if it is missing, and copies `entry.png` there unchanged. It takes no arguments and reads nothing from the network, so repeated runs write identical bytes — verified locally by running it twice into separate directories and comparing the outputs byte for byte against the repository's `entry.png`.
+
 ## What's on the page (morning edition, 23 stories, 8 regions)
 
 **Lead — Ukraine war / Mediterranean:** Ukraine takes the war to the Mediterranean: Russian warship sunk off Libya. Kyiv says it sank a Russian warship and damaged a cargo vessel; Tripoli condemns the attacks near Benghazi and Libya's east demands a UN probe.
