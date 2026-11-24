@@ -6,7 +6,7 @@
 
 An entry for the make.fun bounty [news-image-20261124](https://make.fun/bounty/news-image-20261124): sum up the world's news of **Tuesday 24 November 2026** in one image.
 
-`main.ts` copies `entry.png` to `/output/entry.png` — no network, byte-identical on every run. The poster is a one-page broadsheet, "The World Today", drawn as HTML + inline SVG and rendered to a 1024×1024 PNG (256,737 bytes).
+`main.ts` copies `entry.png` to `/output/entry.png` — no network, byte-identical on every run. The poster is a one-page broadsheet, "The World Today", drawn as HTML + inline SVG and rendered to a 1024×1024 PNG (256,886 bytes).
 
 ## Program
 
